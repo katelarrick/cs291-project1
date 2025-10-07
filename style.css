@@ -120,10 +120,31 @@ hr {
   display: block;
 }
 
-#expert-topics {
+.topics-and-links {
+  display: flex;
+  justify-content: center;
+}
+
+.expert-topics {
+  width: 30%;
+}
+
+#expert-topics-list {
   padding: 10px;
   border-radius: 5px;
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.expert-topics-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+  margin-top: 80px;
+  margin-bottom: 0;
 }
 
 .expert-topics-title {
@@ -136,18 +157,37 @@ hr {
   margin-bottom: 0;
 }
 
+.expert-topics-list-content {
+  font-family: gtAlpinaRegular;
+  line-height: 2;
+  font-size: 22px;
+  color: rgb(77, 64, 64);
+  margin-left: 80px;
+}
+
 .other-links {
+  width: 30%;
+}
+
+#other-links-list {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.other-links-header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: min-content;
-  width: 100%;
   margin-top: 80px;
   margin-bottom: 0;
 }
 
-.other-links-header {
+.other-links-title {
   font-family: Coolvetica;
   color: #2c3e50;
   text-align: center;
@@ -155,5 +195,13 @@ hr {
   letter-spacing: 2px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.other-links-list-text {
+  font-family: gtAlpinaRegular;
+  line-height: 2;
+  font-size: 22px;
+  color: rgb(77, 64, 64);
+  margin-left: 80px;
 }
 
