@@ -125,11 +125,11 @@ hr {
   justify-content: center;
 }
 
-.expert-topics {
+.expert-topics-div {
   width: 30%;
 }
 
-#expert-topics-list {
+#expert-topics {
   padding: 10px;
   border-radius: 5px;
   margin-top: 20px;
