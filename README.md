@@ -1,1 +1,1 @@
-https://katelarrick.github.io/cs291-project1/
+https://katelarrick.github.io
